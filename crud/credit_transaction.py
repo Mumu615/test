@@ -68,7 +68,7 @@ def add_credits(db: Session, user_id: int, amount: int, source: str, source_id: 
     
     return db_transaction
 
-def consume_credits(db: Session, user_id: int, amount: int, source: str, source_id: Optional[int] = None):
+def consume_credits(db: Session, user_id: int, amount: int, source: str, source_id: Optional[int] = None, commit: bool = True):
     """消耗用户积分并创建流水记录"""
     # 获取用户档案
     profile = get_user_profile_or_create(db, user_id)
@@ -102,9 +102,13 @@ def consume_credits(db: Session, user_id: int, amount: int, source: str, source_
     )
     db.add(db_transaction)
     
-    # 提交事务
-    db.commit()
-    db.refresh(db_transaction)
+    # 只有在commit参数为True时才提交
+    if commit:
+        db.commit()
+        db.refresh(db_transaction)
+    else:
+        # 如果不提交，至少flush一下以确保id生成（如果需要id）或在session中可见
+        db.flush()
     
     return db_transaction
 

@@ -5,6 +5,7 @@ from dependencies import get_current_user, get_db
 from models.user import User
 from schemas.drawing import ImageGenerationRequest, ImageGenerationResponse
 from services.image_generation import ImageGenerationService
+from config.database import SessionLocal
 
 router = APIRouter(prefix="/api/v1/image", tags=["image"])
 
@@ -39,12 +40,12 @@ async def generate_image(
                 detail="未找到模型的Webhook配置"
             )
         
-        # 添加异步任务到后台
+        # 添加异步任务到后台，注意不要传递 db 参数
         background_tasks.add_task(
             call_webhook_and_handle_response,
             task.id,
-            webhook_url,
-            db
+            webhook_url
+            # db 参数已移除
         )
         
         # 返回任务信息
@@ -62,10 +63,15 @@ async def generate_image(
             detail=f"生成图片失败: {str(e)}"
         )
 
-async def call_webhook_and_handle_response(task_id: str, webhook_url: str, db: Session):
+async def call_webhook_and_handle_response(task_id: str, webhook_url: str):
     """后台任务：调用Webhook并处理响应"""
-    service = ImageGenerationService(db)
-    await service.call_webhook(task_id, webhook_url)
+    # 创建新的数据库会话，而不是使用请求中的会话
+    db = SessionLocal()
+    try:
+        service = ImageGenerationService(db)
+        await service.call_webhook(task_id, webhook_url)
+    finally:
+        db.close()
 
 from pydantic import BaseModel
 from typing import Optional
