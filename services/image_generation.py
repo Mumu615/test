@@ -67,7 +67,7 @@ class ImageGenerationService:
         final_size = None
 
         if is_ratio_based:
-            # 比例选择模式（如 nanobanana）
+            # 比例选择模式
             if request.size:
                 raise HTTPException(
                     status_code=status.HTTP_400_BAD_REQUEST,
@@ -84,7 +84,7 @@ class ImageGenerationService:
             final_size = request.aspect_ratio  # 对于比例选择模型，直接存储比例
             
         else:
-            # 尺寸选择模式（如 seedream-4）
+            # 尺寸选择模式
             final_size = request.size
             if final_size is None and request.aspect_ratio:
                 # 如果没有提供尺寸但提供了比例，使用比例对应的默认尺寸
