@@ -169,13 +169,13 @@ class ImageGenerationService:
         
         try:
             # 开始事务
-            # 1. 扣除积分 - 【关键修复】传入 commit=False
+            # 1. 扣除积分 - 【关键修改】传入 commit=False
             consume_credits(
                 db=self.db,
                 user_id=user.id,
                 amount=credits_needed,
                 source="drawing_generation",
-                commit=False  # 不要立即提交，等待任务创建成功
+                commit=False  # <--- 必须加这个，不要立即提交！
             )
             
             # 2. 创建任务
@@ -189,25 +189,25 @@ class ImageGenerationService:
                 meta_data={"webhook_url": model_config.get("webhookUrl")}
             )
             
-            # 注意：create_image_generation_task 内部可能也执行了 commit，
-            # 如果可以，最好也让它支持 commit=False，或者依靠下面的 update 来提交
             task = create_image_generation_task(self.db, task_create)
             
-            # 3. 更新任务状态为处理中
-            # 这里会触发 commit，提交之前的积分扣减和任务创建
+            # 3. 更新状态
             update_task_status(self.db, task.id, TaskStatus.PROCESSING)
+            
+            # 【关键修改】所有操作都成功了，在这里统一提交！
+            self.db.commit()
+            self.db.refresh(task)
             
             return task
             
         except Exception as e:
-            # 如果事务失败，回滚（包括积分扣减）
+            # 如果事务失败，回滚（此时因为上面没 commit，积分也能回滚回来）
             self.db.rollback()
             logger.error(f"创建任务失败，事务回滚: {str(e)}")
             raise HTTPException(
                 status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
                 detail=f"创建任务失败: {str(e)}"
             )
-    
     async def call_webhook(self, task_id: str, webhook_url: str) -> bool:
         """异步调用Webhook接口"""
         try:

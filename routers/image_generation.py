@@ -40,12 +40,12 @@ async def generate_image(
                 detail="未找到模型的Webhook配置"
             )
         
-        # 添加异步任务到后台，注意不要传递 db 参数
+        # 【关键修改】添加异步任务到后台，不要传递 db 参数
         background_tasks.add_task(
             call_webhook_and_handle_response,
             task.id,
             webhook_url
-            # db 参数已移除
+            # 删掉 db 参数
         )
         
         # 返回任务信息
@@ -65,13 +65,13 @@ async def generate_image(
 
 async def call_webhook_and_handle_response(task_id: str, webhook_url: str):
     """后台任务：调用Webhook并处理响应"""
-    # 创建新的数据库会话，而不是使用请求中的会话
+    # 【关键修改】在这里创建新的数据库会话
     db = SessionLocal()
     try:
         service = ImageGenerationService(db)
         await service.call_webhook(task_id, webhook_url)
     finally:
-        db.close()
+        db.close() # 务必关闭
 
 from pydantic import BaseModel
 from typing import Optional
