@@ -1,0 +1,45 @@
+{
+  "nano-banana": {
+    "name": "🍌 Nano Banana",
+    "tagClass": "img-gen-model-banana",
+    "credits": 25,
+    "webhookUrl": "https://n8n-vzmcvshw.ap-southeast-1.clawcloudrun.com/webhook/Nano-Banana",
+    "maxRefImages": 5,
+    "supportedRatios": ["21:9", "16:9", "4:3", "3:2", "1:1", "9:16", "3:4", "2:3", "5:4", "4:5"]
+  },
+  "seedream-4": {
+    "name": "🌟 seedream 4.0",
+    "tagClass": "img-gen-model-seedream",
+    "credits": 20,
+    "webhookUrl": "https://n8n-vzmcvshw.ap-southeast-1.clawcloudrun.com/webhook/seedream",
+    "maxRefImages": 10,
+    "supportedRatios": ["1:1", "4:3", "3:4", "16:9", "9:16", "3:2", "2:3", "21:9", "自定义尺寸"],
+    "sizeMap": {
+      "1:1": "2048x2048",
+      "4:3": "2304x1728",
+      "3:4": "1728x2304",
+      "16:9": "2560x1440",
+      "9:16": "1440x2560",
+      "3:2": "2496x1664",
+      "2:3": "1664x2496",
+      "21:9": "3024x1296"
+    }
+  },
+  "Qwen-image": {
+    "name": "Qwen-image",
+    "tagClass": "img-gen-model-qwen",
+    "credits": 2,
+    "webhookUrl": "https://n8n-wuhqwsqq.us-west-1.clawcloudrun.com/webhook/qwen-image",
+    "maxRefImages": 0,
+    "supportedRatios": ["1:1", "16:9", "9:16", "4:3", "3:4", "3:2", "2:3"],
+    "sizeMap": {
+      "1:1": "1328x1328",
+      "16:9": "1664x928",
+      "9:16": "928x1664",
+      "4:3": "1472x1140",
+      "3:4": "1140x1472",
+      "3:2": "1584x1056",
+      "2:3": "1056x1584"
+    }
+  }
+}

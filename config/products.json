@@ -1,0 +1,46 @@
+{
+  "0.99": {
+    "credits": 500,
+    "productId": "credits_500",
+    "membership": {
+      "level": "advanced",
+      "days": 30
+    }
+  },
+  "2.90": {
+    "credits": 150,
+    "productId": "credits_150"
+  },
+  "18.90": {
+    "credits": 1200,
+    "productId": "credits_1200",
+    "membership": {
+      "level": "advanced",
+      "days": 30
+    }
+  },
+  "29.90": {
+    "credits": 2400,
+    "productId": "credits_2400",
+    "membership": {
+      "level": "advanced",
+      "days": 30
+    }
+  },
+  "68.00": {
+    "credits": 5000,
+    "productId": "credits_5000",
+    "membership": {
+      "level": "professional",
+      "days": 30
+    }
+  },
+  "188.00": {
+    "credits": 16000,
+    "productId": "credits_16000",
+    "membership": {
+      "level": "professional",
+      "days": 90
+    }
+  }
+}

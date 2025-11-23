@@ -1,0 +1,310 @@
+2025-11-23 20:02:23.349 | INFO     | main:<module>:32 - Database URL: mysql+pymysql://root:3hryfQBb6875o94CMOngiX0tRLSu2Fc1@cgk1.clusters.zeabur.com:20800/test2
+2025-11-23 20:02:23.349 | INFO     | main:<module>:33 - Redis Host: cgk1.clusters.zeabur.com:20344/0
+2025-11-23 20:02:23.395 | INFO     | main:startup_event:87 - ============================================================
+2025-11-23 20:02:23.395 | INFO     | main:startup_event:88 - 应用启动完成，定时任务已初始化
+2025-11-23 20:02:23.396 | INFO     | main:startup_event:89 - 服务器地址: http://http://75.127.89.76:8880
+2025-11-23 20:02:23.397 | INFO     | main:startup_event:90 - 支付回调地址: http://http://75.127.89.76:8880/api/v1/payment/notify
+2025-11-23 20:02:23.397 | INFO     | main:startup_event:91 - 生图回调地址: http://http://75.127.89.76:8880/image-generation/callback/{task_id}
+2025-11-23 20:02:23.397 | INFO     | main:startup_event:92 - ============================================================
+2025-11-23 20:02:35.810 | INFO     | main:shutdown_event:99 - 应用关闭，定时任务已停止
+2025-11-23 20:02:38.541 | INFO     | main:<module>:32 - Database URL: mysql+pymysql://root:3hryfQBb6875o94CMOngiX0tRLSu2Fc1@cgk1.clusters.zeabur.com:20800/test2
+2025-11-23 20:02:38.542 | INFO     | main:<module>:33 - Redis Host: cgk1.clusters.zeabur.com:20344/0
+2025-11-23 20:02:38.582 | INFO     | main:startup_event:87 - ============================================================
+2025-11-23 20:02:38.582 | INFO     | main:startup_event:88 - 应用启动完成，定时任务已初始化
+2025-11-23 20:02:38.583 | INFO     | main:startup_event:89 - 服务器地址: http://http://75.127.89.76:8880
+2025-11-23 20:02:38.583 | INFO     | main:startup_event:90 - 支付回调地址: http://http://75.127.89.76:8880/api/v1/payment/notify
+2025-11-23 20:02:38.583 | INFO     | main:startup_event:91 - 生图回调地址: http://http://75.127.89.76:8880/image-generation/callback/{task_id}
+2025-11-23 20:02:38.585 | INFO     | main:startup_event:92 - ============================================================
+2025-11-23 20:02:46.108 | INFO     | main:shutdown_event:99 - 应用关闭，定时任务已停止
+2025-11-23 20:02:48.599 | INFO     | main:<module>:26 - Database URL: mysql+pymysql://root:3hryfQBb6875o94CMOngiX0tRLSu2Fc1@cgk1.clusters.zeabur.com:20800/test2
+2025-11-23 20:02:48.600 | INFO     | main:<module>:27 - Redis Host: cgk1.clusters.zeabur.com:20344/0
+2025-11-23 20:02:48.637 | INFO     | main:startup_event:81 - ============================================================
+2025-11-23 20:02:48.637 | INFO     | main:startup_event:82 - 应用启动完成，定时任务已初始化
+2025-11-23 20:02:48.638 | INFO     | main:startup_event:83 - 服务器地址: http://http://75.127.89.76:8880
+2025-11-23 20:02:48.638 | INFO     | main:startup_event:84 - 支付回调地址: http://http://75.127.89.76:8880/api/v1/payment/notify
+2025-11-23 20:02:48.638 | INFO     | main:startup_event:85 - 生图回调地址: http://http://75.127.89.76:8880/image-generation/callback/{task_id}
+2025-11-23 20:02:48.639 | INFO     | main:startup_event:86 - ============================================================
+2025-11-23 20:03:09.331 | INFO     | main:shutdown_event:93 - 应用关闭，定时任务已停止
+2025-11-23 20:03:11.908 | INFO     | main:<module>:26 - Database URL: mysql+pymysql://root:3hryfQBb6875o94CMOngiX0tRLSu2Fc1@cgk1.clusters.zeabur.com:20800/test2
+2025-11-23 20:03:11.909 | INFO     | main:<module>:27 - Redis Host: cgk1.clusters.zeabur.com:20344/0
+2025-11-23 20:03:11.968 | INFO     | main:startup_event:81 - ============================================================
+2025-11-23 20:03:11.969 | INFO     | main:startup_event:82 - 应用启动完成，定时任务已初始化
+2025-11-23 20:03:11.969 | INFO     | main:startup_event:83 - 服务器地址: http://http://75.127.89.76:8880
+2025-11-23 20:03:11.970 | INFO     | main:startup_event:84 - 支付回调地址: http://http://75.127.89.76:8880/api/v1/payment/notify
+2025-11-23 20:03:11.970 | INFO     | main:startup_event:85 - 生图回调地址: http://http://75.127.89.76:8880/image-generation/callback/{task_id}
+2025-11-23 20:03:11.971 | INFO     | main:startup_event:86 - ============================================================
+2025-11-23 20:03:18.743 | INFO     | main:shutdown_event:93 - 应用关闭，定时任务已停止
+2025-11-23 20:03:21.143 | INFO     | main:<module>:26 - Database URL: mysql+pymysql://root:3hryfQBb6875o94CMOngiX0tRLSu2Fc1@cgk1.clusters.zeabur.com:20800/test2
+2025-11-23 20:03:21.143 | INFO     | main:<module>:27 - Redis Host: cgk1.clusters.zeabur.com:20344/0
+2025-11-23 20:03:21.211 | INFO     | main:startup_event:81 - ============================================================
+2025-11-23 20:03:21.211 | INFO     | main:startup_event:82 - 应用启动完成，定时任务已初始化
+2025-11-23 20:03:21.212 | INFO     | main:startup_event:83 - 服务器地址: http://http://75.127.89.76:8880
+2025-11-23 20:03:21.213 | INFO     | main:startup_event:84 - 支付回调地址: http://http://75.127.89.76:8880/api/v1/payment/notify
+2025-11-23 20:03:21.213 | INFO     | main:startup_event:85 - 生图回调地址: http://http://75.127.89.76:8880/image-generation/callback/{task_id}
+2025-11-23 20:03:21.214 | INFO     | main:startup_event:86 - ============================================================
+2025-11-23 20:03:21.216 | INFO     | main:shutdown_event:93 - 应用关闭，定时任务已停止
+2025-11-23 20:03:23.723 | INFO     | main:<module>:26 - Database URL: mysql+pymysql://root:3hryfQBb6875o94CMOngiX0tRLSu2Fc1@cgk1.clusters.zeabur.com:20800/test2
+2025-11-23 20:03:23.724 | INFO     | main:<module>:27 - Redis Host: cgk1.clusters.zeabur.com:20344/0
+2025-11-23 20:03:23.781 | INFO     | main:startup_event:81 - ============================================================
+2025-11-23 20:03:23.782 | INFO     | main:startup_event:82 - 应用启动完成，定时任务已初始化
+2025-11-23 20:03:23.783 | INFO     | main:startup_event:83 - 服务器地址: http://http://75.127.89.76:8880
+2025-11-23 20:03:23.783 | INFO     | main:startup_event:84 - 支付回调地址: http://http://75.127.89.76:8880/api/v1/payment/notify
+2025-11-23 20:03:23.783 | INFO     | main:startup_event:85 - 生图回调地址: http://http://75.127.89.76:8880/image-generation/callback/{task_id}
+2025-11-23 20:03:23.784 | INFO     | main:startup_event:86 - ============================================================
+2025-11-23 20:03:33.877 | ERROR    | core.middleware:request_logging_middleware:42 - POST /api/v1/image/generate | Status: 500 | Time: 8002.66ms
+2025-11-23 20:03:53.549 | INFO     | main:shutdown_event:93 - 应用关闭，定时任务已停止
+2025-11-23 20:03:55.757 | INFO     | main:<module>:26 - Database URL: mysql+pymysql://root:3hryfQBb6875o94CMOngiX0tRLSu2Fc1@cgk1.clusters.zeabur.com:20800/test2
+2025-11-23 20:03:55.757 | INFO     | main:<module>:27 - Redis Host: cgk1.clusters.zeabur.com:20344/0
+2025-11-23 20:03:55.817 | INFO     | main:startup_event:81 - ============================================================
+2025-11-23 20:03:55.818 | INFO     | main:startup_event:82 - 应用启动完成，定时任务已初始化
+2025-11-23 20:03:55.818 | INFO     | main:startup_event:83 - 服务器地址: http://http://75.127.89.76:8880
+2025-11-23 20:03:55.819 | INFO     | main:startup_event:84 - 支付回调地址: http://http://75.127.89.76:8880/api/v1/payment/notify
+2025-11-23 20:03:55.819 | INFO     | main:startup_event:85 - 生图回调地址: http://http://75.127.89.76:8880/image-generation/callback/{task_id}
+2025-11-23 20:03:55.820 | INFO     | main:startup_event:86 - ============================================================
+2025-11-23 20:04:18.728 | INFO     | main:shutdown_event:93 - 应用关闭，定时任务已停止
+2025-11-23 20:04:21.013 | INFO     | main:<module>:26 - Database URL: mysql+pymysql://root:3hryfQBb6875o94CMOngiX0tRLSu2Fc1@cgk1.clusters.zeabur.com:20800/test2
+2025-11-23 20:04:21.014 | INFO     | main:<module>:27 - Redis Host: cgk1.clusters.zeabur.com:20344/0
+2025-11-23 20:04:21.088 | INFO     | main:startup_event:81 - ============================================================
+2025-11-23 20:04:21.089 | INFO     | main:startup_event:82 - 应用启动完成，定时任务已初始化
+2025-11-23 20:04:21.090 | INFO     | main:startup_event:83 - 服务器地址: http://http://75.127.89.76:8880
+2025-11-23 20:04:21.090 | INFO     | main:startup_event:84 - 支付回调地址: http://http://75.127.89.76:8880/api/v1/payment/notify
+2025-11-23 20:04:21.090 | INFO     | main:startup_event:85 - 生图回调地址: http://http://75.127.89.76:8880/image-generation/callback/{task_id}
+2025-11-23 20:04:21.092 | INFO     | main:startup_event:86 - ============================================================
+2025-11-23 20:04:27.183 | INFO     | main:shutdown_event:93 - 应用关闭，定时任务已停止
+2025-11-23 20:04:29.780 | INFO     | main:<module>:26 - Database URL: mysql+pymysql://root:3hryfQBb6875o94CMOngiX0tRLSu2Fc1@cgk1.clusters.zeabur.com:20800/test2
+2025-11-23 20:04:29.780 | INFO     | main:<module>:27 - Redis Host: cgk1.clusters.zeabur.com:20344/0
+2025-11-23 20:04:29.832 | INFO     | main:startup_event:81 - ============================================================
+2025-11-23 20:04:29.833 | INFO     | main:startup_event:82 - 应用启动完成，定时任务已初始化
+2025-11-23 20:04:29.833 | INFO     | main:startup_event:83 - 服务器地址: http://http://75.127.89.76:8880
+2025-11-23 20:04:29.834 | INFO     | main:startup_event:84 - 支付回调地址: http://http://75.127.89.76:8880/api/v1/payment/notify
+2025-11-23 20:04:29.835 | INFO     | main:startup_event:85 - 生图回调地址: http://http://75.127.89.76:8880/image-generation/callback/{task_id}
+2025-11-23 20:04:29.835 | INFO     | main:startup_event:86 - ============================================================
+2025-11-23 20:04:38.001 | INFO     | main:shutdown_event:93 - 应用关闭，定时任务已停止
+2025-11-23 20:04:40.368 | INFO     | main:<module>:26 - Database URL: mysql+pymysql://root:3hryfQBb6875o94CMOngiX0tRLSu2Fc1@cgk1.clusters.zeabur.com:20800/test2
+2025-11-23 20:04:40.370 | INFO     | main:<module>:27 - Redis Host: cgk1.clusters.zeabur.com:20344/0
+2025-11-23 20:04:40.411 | INFO     | main:startup_event:81 - ============================================================
+2025-11-23 20:04:40.411 | INFO     | main:startup_event:82 - 应用启动完成，定时任务已初始化
+2025-11-23 20:04:40.411 | INFO     | main:startup_event:83 - 服务器地址: http://http://75.127.89.76:8880
+2025-11-23 20:04:40.413 | INFO     | main:startup_event:84 - 支付回调地址: http://http://75.127.89.76:8880/api/v1/payment/notify
+2025-11-23 20:04:40.413 | INFO     | main:startup_event:85 - 生图回调地址: http://http://75.127.89.76:8880/image-generation/callback/{task_id}
+2025-11-23 20:04:40.414 | INFO     | main:startup_event:86 - ============================================================
+2025-11-23 20:04:46.502 | INFO     | main:shutdown_event:93 - 应用关闭，定时任务已停止
+2025-11-23 20:04:49.259 | INFO     | main:<module>:26 - Database URL: mysql+pymysql://root:3hryfQBb6875o94CMOngiX0tRLSu2Fc1@cgk1.clusters.zeabur.com:20800/test2
+2025-11-23 20:04:49.259 | INFO     | main:<module>:27 - Redis Host: cgk1.clusters.zeabur.com:20344/0
+2025-11-23 20:04:49.306 | INFO     | main:startup_event:81 - ============================================================
+2025-11-23 20:04:49.306 | INFO     | main:startup_event:82 - 应用启动完成，定时任务已初始化
+2025-11-23 20:04:49.307 | INFO     | main:startup_event:83 - 服务器地址: http://http://75.127.89.76:8880
+2025-11-23 20:04:49.308 | INFO     | main:startup_event:84 - 支付回调地址: http://http://75.127.89.76:8880/api/v1/payment/notify
+2025-11-23 20:04:49.308 | INFO     | main:startup_event:85 - 生图回调地址: http://http://75.127.89.76:8880/image-generation/callback/{task_id}
+2025-11-23 20:04:49.308 | INFO     | main:startup_event:86 - ============================================================
+2025-11-23 20:05:07.194 | ERROR    | core.middleware:request_logging_middleware:42 - POST /api/v1/image/generate | Status: 500 | Time: 7918.21ms
+2025-11-23 20:06:26.357 | INFO     | main:shutdown_event:93 - 应用关闭，定时任务已停止
+2025-11-23 20:06:28.937 | INFO     | main:<module>:26 - Database URL: mysql+pymysql://root:3hryfQBb6875o94CMOngiX0tRLSu2Fc1@cgk1.clusters.zeabur.com:20800/test2
+2025-11-23 20:06:28.938 | INFO     | main:<module>:27 - Redis Host: cgk1.clusters.zeabur.com:20344/0
+2025-11-23 20:06:28.985 | INFO     | main:startup_event:81 - ============================================================
+2025-11-23 20:06:28.985 | INFO     | main:startup_event:82 - 应用启动完成，定时任务已初始化
+2025-11-23 20:06:28.987 | INFO     | main:startup_event:83 - 服务器地址: http://http://75.127.89.76:8880
+2025-11-23 20:06:28.987 | INFO     | main:startup_event:84 - 支付回调地址: http://http://75.127.89.76:8880/api/v1/payment/notify
+2025-11-23 20:06:28.987 | INFO     | main:startup_event:85 - 生图回调地址: http://http://75.127.89.76:8880/image-generation/callback/{task_id}
+2025-11-23 20:06:28.988 | INFO     | main:startup_event:86 - ============================================================
+2025-11-23 20:07:08.481 | INFO     | main:shutdown_event:93 - 应用关闭，定时任务已停止
+2025-11-23 20:07:10.789 | INFO     | main:<module>:26 - Database URL: mysql+pymysql://root:3hryfQBb6875o94CMOngiX0tRLSu2Fc1@cgk1.clusters.zeabur.com:20800/test2
+2025-11-23 20:07:10.789 | INFO     | main:<module>:27 - Redis Host: cgk1.clusters.zeabur.com:20344/0
+2025-11-23 20:07:10.842 | INFO     | main:startup_event:81 - ============================================================
+2025-11-23 20:07:10.842 | INFO     | main:startup_event:82 - 应用启动完成，定时任务已初始化
+2025-11-23 20:07:10.843 | INFO     | main:startup_event:83 - 服务器地址: http://http://75.127.89.76:8880
+2025-11-23 20:07:10.843 | INFO     | main:startup_event:84 - 支付回调地址: http://http://75.127.89.76:8880/api/v1/payment/notify
+2025-11-23 20:07:10.843 | INFO     | main:startup_event:85 - 生图回调地址: http://http://75.127.89.76:8880/image-generation/callback/{task_id}
+2025-11-23 20:07:10.844 | INFO     | main:startup_event:86 - ============================================================
+2025-11-23 20:07:49.353 | ERROR    | services.image_generation:create_task_with_transaction:167 - [Task] 任务创建失败 UserID: 1
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "C:\Users\11560\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 368
+               │     └ 3
+               └ <function _main at 0x0000018137E9D940>
+  File "C:\Users\11560\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\spawn.py", line 135, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 368
+           │    └ <function BaseProcess._bootstrap at 0x0000018137D83B00>
+           └ <SpawnProcess name='SpawnProcess-16' parent=30616 started>
+  File "C:\Users\11560\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x0000018137D83060>
+    └ <SpawnProcess name='SpawnProcess-16' parent=30616 started>
+  File "C:\Users\11560\AppData\Local\Programs\Python\Python312\Lib\multiprocessing\process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x0000018137E4AEA0>, 'target': <bound method Server.run of <uvicorn.server.Server...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-16' parent=30616 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-16' parent=30616 started>
+    │    └ <function subprocess_started at 0x000001813A27AAC0>
+    └ <SpawnProcess name='SpawnProcess-16' parent=30616 started>
+  File "D:\Desk_top\CODE99\.venv\Lib\site-packages\uvicorn\_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=728, family=2, type=1, proto=6, laddr=('0.0.0.0', 8000)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x000001813A2A9CD0>>
+  File "D:\Desk_top\CODE99\.venv\Lib\site-packages\uvicorn\server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+           │           │    │             │                      │    │      └ <function Config.get_loop_factory at 0x000001813A1E7CE0>
+           │           │    │             │                      │    └ <uvicorn.config.Config object at 0x0000018137E4AEA0>
+           │           │    │             │                      └ <uvicorn.server.Server object at 0x000001813A2A9CD0>
+           │           │    │             └ [<socket.socket fd=728, family=2, type=1, proto=6, laddr=('0.0.0.0', 8000)>]
+           │           │    └ <function Server.serve at 0x000001813A27A0C0>
+           │           └ <uvicorn.server.Server object at 0x000001813A2A9CD0>
+           └ <function run at 0x0000018139A313A0>
+  File "C:\Users\11560\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x0000018137D0C2E0>
+           │      └ <function Runner.run at 0x0000018139B84EA0>
+           └ <asyncio.runners.Runner object at 0x0000018137E4ACF0>
+  File "C:\Users\11560\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at D:\Desk_top\CODE99\.venv\Lib\site-packages\uvicorn\server.py:71> ...
+           │    │     └ <function BaseEventLoop.run_until_complete at 0x0000018139B7EAC0>
+           │    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x0000018137E4ACF0>
+  File "C:\Users\11560\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x0000018139B7EA20>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\11560\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x0000018139B84860>
+    └ <_WindowsSelectorEventLoop running=True closed=False debug=False>
+  File "C:\Users\11560\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1986, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x0000018139A0AA20>
+    └ <Handle Task.task_wakeup(<Future finis...01813DBE2BD0>>)>
+  File "C:\Users\11560\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finis...01813DBE2BD0>>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finis...01813DBE2BD0>>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finis...01813DBE2BD0>>)>
+  File "D:\Desk_top\CODE99\.venv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+          │    │   │      │                      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x000001813DAEE3E0>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001813DBC0180>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.cors.CORSMiddleware object at 0x000001813DAD9370>
+          └ <starlette.middleware.base.BaseHTTPMiddleware object at 0x000001813D938170>
+  File "D:\Desk_top\CODE99\.venv\Lib\site-packages\starlette\middleware\cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+          │    │               │      │        │                     └ Headers({'host': '127.0.0.1:8000', 'connection': 'close', 'content-length': '147274', 'sec-ch-ua-platform': '"Windows"', 'aut...
+          │    │               │      │        └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.send_no_error at 0x000001813DAEE3E0>
+          │    │               │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001813DBC0180>
+          │    │               └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <function CORSMiddleware.simple_response at 0x000001813B344900>
+          └ <starlette.middleware.cors.CORSMiddleware object at 0x000001813DAD9370>
+  File "D:\Desk_top\CODE99\.venv\Lib\site-packages\starlette\middleware\cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+          │    │   │      │        └ functools.partial(<bound method CORSMiddleware.send of <starlette.middleware.cors.CORSMiddleware object at 0x000001813DAD9370...
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001813DBC0180>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000001813DB93530>
+          └ <starlette.middleware.cors.CORSMiddleware object at 0x000001813DAD9370>
+  File "D:\Desk_top\CODE99\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+          │                            │    │    │     │      │        └ functools.partial(<bound method CORSMiddleware.send of <starlette.middleware.cors.CORSMiddleware object at 0x000001813DAD9370...
+          │                            │    │    │     │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001813DBC0180>
+          │                            │    │    │     └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │                            │    │    └ <starlette.requests.Request object at 0x000001813DBB6090>
+          │                            │    └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x000001813DB93350>
+          │                            └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x000001813DB93530>
+          └ <function wrap_app_handling_exceptions at 0x000001813B290CC0>
+  File "D:\Desk_top\CODE99\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001813DC01620>
+          │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001813DBC0180>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x000001813DB93350>
+  File "D:\Desk_top\CODE99\.venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001813DC01620>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001813DBC0180>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <fastapi.routing.APIRouter object at 0x000001813DB022A0>
+          └ <fastapi.middleware.asyncexitstack.AsyncExitStackMiddleware object at 0x000001813DB93350>
+  File "D:\Desk_top\CODE99\.venv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001813DC01620>
+          │    │                │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001813DBC0180>
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <bound method Router.app of <fastapi.routing.APIRouter object at 0x000001813DB022A0>>
+          └ <fastapi.routing.APIRouter object at 0x000001813DB022A0>
+  File "D:\Desk_top\CODE99\.venv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001813DC01620>
+          │     │      │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001813DBC0180>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │     └ <function Route.handle at 0x000001813B292160>
+          └ APIRoute(path='/api/v1/image/generate', name='generate_image', methods=['POST'])
+  File "D:\Desk_top\CODE99\.venv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001813DC01620>
+          │    │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001813DBC0180>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <function request_response.<locals>.app at 0x000001813DB61E40>
+          └ APIRoute(path='/api/v1/image/generate', name='generate_image', methods=['POST'])
+  File "D:\Desk_top\CODE99\.venv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+          │                            │    │        │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001813DC01620>
+          │                            │    │        │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001813DBC0180>
+          │                            │    │        └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │                            │    └ <starlette.requests.Request object at 0x000001813DBE23F0>
+          │                            └ <function request_response.<locals>.app.<locals>.app at 0x000001813DC016C0>
+          └ <function wrap_app_handling_exceptions at 0x000001813B290CC0>
+  File "D:\Desk_top\CODE99\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x000001813DC01800>
+          │   │      └ <function BaseHTTPMiddleware.__call__.<locals>.call_next.<locals>.receive_or_disconnect at 0x000001813DBC0180>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          └ <function request_response.<locals>.app.<locals>.app at 0x000001813DC016C0>
+  File "D:\Desk_top\CODE99\.venv\Lib\site-packages\fastapi\routing.py", line 109, in app
+    response = await f(request)
+                     │ └ <starlette.requests.Request object at 0x000001813DBE23F0>
+                     └ <function get_request_handler.<locals>.app at 0x000001813DB61DA0>
+  File "D:\Desk_top\CODE99\.venv\Lib\site-packages\fastapi\routing.py", line 387, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x000001813B293F60>
+  File "D:\Desk_top\CODE99\.venv\Lib\site-packages\fastapi\routing.py", line 288, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'current_user': <models.user.User object at 0x000001813DFB6990>, 'db': <sqlalchemy.orm.session.Session object at 0x000001813...
+                 │         └ <function generate_image at 0x000001813D9C3EC0>
+                 └ Dependant(path_params=[], query_params=[], header_params=[], cookie_params=[], body_params=[ModelField(field_info=Body(Pydant...
+
+  File "D:\Desk_top\CODE99\platform_backend\routers\image_generation.py", line 37, in generate_image
+    task = service.create_task_with_transaction(request, current_user)
+           │       │                            │        └ <models.user.User object at 0x000001813DFB6990>
+           │       │                            └ ImageGenerationRequest(model='nano-banana', prompt='融合', size=None, aspect_ratio='21:9', reference_images=['data:image/jpeg;b...
+           │       └ <function ImageGenerationService.create_task_with_transaction at 0x000001813DA50F40>
+           └ <services.image_generation.ImageGenerationService object at 0x000001813DFB6C90>
+
+> File "D:\Desk_top\CODE99\platform_backend\services\image_generation.py", line 145, in create_task_with_transaction
+    task_create = ImageGenerationTaskCreate(
+                  └ <class 'schemas.drawing.ImageGenerationTaskCreate'>
+
+  File "D:\Desk_top\CODE99\.venv\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     │    │                      │               │                   └ ImageGenerationTaskCreate()
+                     │    │                      │               └ {'user_id': 1, 'model': 'nano-banana', 'prompt': '融合', 'size': None, 'credits_used': 25, 'reference_images': ['data:image/jpe...
+                     │    │                      └ <method 'validate_python' of 'pydantic_core._pydantic_core.SchemaValidator' objects>
+                     │    └ SchemaValidator(title="ImageGenerationTaskCreate", validator=Model(
+                     │          ModelValidator {
+                     │              revalidate: Never,
+                     │              v...
+                     └ ImageGenerationTaskCreate()
+
+pydantic_core._pydantic_core.ValidationError: 2 validation errors for ImageGenerationTaskCreate
+size
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+reference_images.0
+  Input should be a valid dictionary [type=dict_type, input_value='data:image/jpeg;base64,/...peNy0mRwyIiDhOcaMZDmQ==', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/dict_type
+2025-11-23 20:07:50.133 | ERROR    | core.middleware:request_logging_middleware:42 - POST /api/v1/image/generate | Status: 500 | Time: 11362.79ms
